@@ -1,0 +1,101 @@
+/* CSS reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  font-size: 1.125rem;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  color: #eeee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Style CSS*/
+
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 31.9rem;
+  height: 21.38rem;
+
+  background-color: #1b244a;
+}
+.score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3.8rem 0;
+}
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.score {
+  width: 8.6rem;
+  height: 6.6rem;
+  background-color: #080001;
+  border-radius: 0.2rem;
+}
+.result-point {
+  margin: 0 auto;
+  text-align: center;
+  width: 6.5rem;
+
+  font-size: 5rem;
+  color: #f94f6d;
+}
+button {
+  background-color: #1b244a;
+  color: aliceblue;
+}
+.add-points-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 8.6rem;
+  height: 2.5rem;
+  border: 0.2rem #9aabd8;
+}
+.plus-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  border: 0.1rem solid #9aabd8;
+  border-radius: 0.27rem;
+  font-weight: 400;
+}
