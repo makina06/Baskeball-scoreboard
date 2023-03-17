@@ -100,3 +100,8 @@ button {
   border-radius: 0.27rem;
   font-weight: 400;
 }
+.new-game-btn {
+  width: 5rem;
+  height: 5rem;
+  margin: auto 0;
+}
